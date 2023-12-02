@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.navbar{
+    background-color: blue ;
+    height: 83px;
+    max-width:max-content;
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: grid;
+    padding: 10px;
+    border: #333;
+
+
+}
+.navbar a {
+    text-align: center;
+    padding: 20px;
+    color: #333; /* Adjust the text color */
+    text-decoration: none;
+    border: 1px solid #ccc; /* Add a border for visibility */
+  }
+  
+  .navbar .col-span-2 {
+    grid-column: span 2;
+    width: 500px;
+    
+  }
