@@ -4,7 +4,7 @@ import './App.css';
 import {Navbar} from './components/Navbar.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
-import { ElementHomePage } from './pages/practice.jsx';
+import { ElementHomePage } from './pages/practice2.jsx';
 
 function App() {
   return (

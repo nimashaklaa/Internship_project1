@@ -1,0 +1,24 @@
+/* CardItem.css */
+
+.card-item {
+    border: 1px solid #ddd;
+    border-color: black;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 360px;
+    width: 360px;
+  }
+  
+  .card-image img {
+    width: 360px;
+    height: 320px;
+  }
+  
+  .card-description {
+    color: #555;
+    margin: 12px 0;
+  }
+  
+  
+  

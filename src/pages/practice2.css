@@ -1,0 +1,125 @@
+.element-home-page {
+    align-items: flex-start; 
+    background-color: white;
+    border: 1px solid;
+    flex-direction: row-reverse;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .element-home-page .div-2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  .element-home-page .div-3 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  .element-home-page .img {
+    height: 720px;
+    position: relative;
+    width: 720px;
+  }
+  
+  .element-home-page .row {
+    margin-bottom: 0px; /* Add margin between rows */
+  }
+  
+  .element-home-page .col-md-3 {
+    flex: 0 0 25%; 
+  }
+ 
+  .card-category-instance,
+  .card-item-instance,
+  .card-item-3 {
+    top: 90px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 360px;
+  }
+  .card-item-instance {
+    top: 83px;
+    
+  }
+  .element-home-page .div-title {
+    align-items: flex-start;
+    border-color: var(--black);
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    margin-left: -1px;
+    margin-top: -1px;
+    padding: 80px;
+    position: relative;
+    width: 722px;
+  }
+  .div-title .text-wrapper-5 {
+    color: var(--black);
+    font-family: var(--desktop-tablet-h2-font-family);
+    font-size: var(--desktop-tablet-h2-font-size);
+    font-style: var(--desktop-tablet-h2-font-style);
+    font-weight: var(--desktop-tablet-h2-font-weight);
+    letter-spacing: var(--desktop-tablet-h2-letter-spacing);
+    line-height: var(--desktop-tablet-h2-line-height);
+    margin-right: -14px;
+    position: relative;
+    width: 576px;
+  }
+  .element-home-page .text-content {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+  }
+  .element-home-page .our-story {
+    color: var(--black);
+    font-family: var(--desktop-tablet-overline-font-family);
+    font-size: var(--desktop-tablet-overline-font-size);
+    font-style: var(--desktop-tablet-overline-font-style);
+    font-weight: var(--desktop-tablet-overline-font-weight);
+    letter-spacing: var(--desktop-tablet-overline-letter-spacing);
+    line-height: var(--desktop-tablet-overline-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .element-home-page .heading-paragraph {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+  }
+  
+ 
+  .element-home-page .we-are-a-modern {
+    color: var(--black-brightness-90);
+    font-family: var(--desktop-tablet-body-font-family);
+    font-size: var(--desktop-tablet-body-font-size);
+    font-style: var(--desktop-tablet-body-font-style);
+    font-weight: var(--desktop-tablet-body-font-weight);
+    letter-spacing: var(--desktop-tablet-body-letter-spacing);
+    line-height: var(--desktop-tablet-body-line-height);
+    position: relative;
+    width: 543.5px;
+  }
+    

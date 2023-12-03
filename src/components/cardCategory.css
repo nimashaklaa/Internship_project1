@@ -1,0 +1,24 @@
+.card-category {
+    border: 1px solid #ddd;
+    border-color: black;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    width: 360px;
+  }
+  
+  .card-category-label {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .card-category-text-icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+  
+
+  

@@ -35,19 +35,20 @@
     height: 160px;
     position: relative;
     top: -1px;
+   
   }
-  
-  .left-column .text-wrapper-11 {
-    color: #000; 
-    font-family:  sans-serif; 
-    font-size: 54px !important; 
+ 
+  .overlap-group .text-wrapper-11 {
+    color:  #111111;
+    font-family:  "Gilroy-Semibold", Helvetica; 
+    font-size: 67px !important; 
     font-style: normal; 
-    font-weight: 600; 
+    font-weight: 400; 
     height: 160px;
     left: 0;
     letter-spacing: 1px; 
-    line-height: 1.5; 
-    position: absolute;
+    line-height: 80.4px; 
+    position: relative;
     top: 0;
     width: 560px;
 }
@@ -138,10 +139,10 @@
     position: relative;
   }
   
-  .left-column .text-wrapper-3 {
+  .left-colum .text-wrapper-3 {
     color: #111111e6;
     flex: 1;
-    font-family: "Gilroy-Regular", Helvetica; 
+    font-family: "Gilroy-Regular", Helvetica;
     font-size: 14px; 
     font-style: normal; 
     font-weight: 400; 
