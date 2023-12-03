@@ -1,18 +1,14 @@
 
 import './App.css';
 
-import{Navbar} from './components/Navbar.jsx'
+import {Navbar} from './components/Navbar.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
+import { ElementHomePage } from './pages/practice.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <body className="App-header">
-       <Navbar/>
-       
-      </body>
-    </div>
+  <ElementHomePage/>
   );
 }
 

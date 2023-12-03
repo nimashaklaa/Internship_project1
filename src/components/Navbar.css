@@ -1,29 +1,39 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
 
-.navbar{
-    background-color: blue ;
-    height: 83px;
-    max-width:max-content;
+.container-fluid.text-center{
+    background-color:white;
     left: 0;
     top: 0;
     position: absolute;
     display: grid;
     padding: 10px;
-    border: #333;
+    width: 100%;
+   
 
 
 }
-.navbar a {
-    text-align: center;
-    padding: 20px;
-    color: #333; /* Adjust the text color */
-    text-decoration: none;
-    border: 1px solid #ccc; /* Add a border for visibility */
-  }
+.navbar-row{
+  height: 83px;
+
+}
+/* Add borders to navbar items */
+.navbar-row .col-1 {
+  border: 1px solid #000; /* You can change the color and style as needed */
+  padding: 32px;
   
-  .navbar .col-span-2 {
+  
+}
+.navbar-row .col-8{
+  border: 1px solid #000; /* You can change the color and style as needed */
+  padding: 32px;
+
+}
+/* Remove underlines from links */
+.navbar-row .col-1 a {
+  text-decoration: none;
+  color: #000; /* Set the text color as needed */
+}
+  
+.navbar .col-span-2 {
     grid-column: span 2;
     width: 500px;
     

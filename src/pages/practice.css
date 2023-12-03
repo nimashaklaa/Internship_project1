@@ -1,0 +1,25 @@
+.element-home-page {
+    align-items: flex-start; 
+    background-color: white;
+    border: 1px solid;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .element-home-page .div-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  .element-home-page .div-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+    

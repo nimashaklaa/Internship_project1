@@ -7,9 +7,9 @@ import { Footer } from "./Footer";
 import { InputText } from "./InputText";
 import { Navbar } from "./Navbar";
 import { TextIconButton } from "./TextIconButton";
-import "./landingPage.scss";
 
-export const ElementHomePage = () => {
+
+export default  ElementHomePage = () => {
   return (
     <div className="element-home-page">
       <div className="div-2">
