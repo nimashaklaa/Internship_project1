@@ -1,6 +1,6 @@
-.ContactUs-container {
+.container {
     display: flex;
-    border: 1px solid black;
+    border-color: 1px solid black;
     
 
   }
@@ -13,14 +13,14 @@
   
   .text-wrapper-13 {
     font-family:"Gilroy-Semibold",Helvetica;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
     position: relative;
   }
   .top-block{
     
-    padding: 30px;
+    padding: 50px;
 
   }
   .row {
@@ -126,22 +126,6 @@
   .col-md-10 {
     width: 90%; 
     padding: 20px;
-  }
-  .div-title {
-    align-items: flex-start;
-    border-color: var(--black);
-    border-top-style: solid;
-    border-top-width: 1px;
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    justify-content: center;
-    margin-left: -1px;
-    
-    margin-top: -1px;
-    padding: 20px;
-    position: relative;
-    width: 722px;
   }
   /* Additional styling can be added based on your design */
   

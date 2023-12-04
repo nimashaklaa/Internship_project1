@@ -9,8 +9,8 @@ import { ContactUs } from './pages/ContactUs.jsx';
 
 function App() {
   return (
-  //<ElementHomePage/>
-  <ContactUs/>
+  <ElementHomePage/>
+  //<ContactUs/>
   );
 }
 

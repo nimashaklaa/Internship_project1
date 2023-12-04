@@ -112,14 +112,18 @@ export const ElementHomePage = () => {
                         online has never been easier.
                         </p>
                     </div>
-                    <Button label="LERN MORE" BackgroundColor="white" color="Black"state="default" type="secondary" /> 
+                    <Button label="LERN MORE" color="white" state="default" type="secondary" /> 
                 </div>
                  
             </div>
         </div>
-        <div className="row"> <WhyChooseUs/></div>
-        <div className="row"><ContactUs/></div>
-        
+        <div className="row">
+            <WhyChooseUs/> 
+        </div>
+        <div className="row">
+            <ContactUs/>
+        </div>
+           
      </div>
     </div>
 
