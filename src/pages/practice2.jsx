@@ -7,6 +7,7 @@ import { Button } from "../components/button";
 import { WhyChooseUs } from "./WhyChooseUs";
 import "./practice2.css";
 import { ContactUs } from "./ContactUs";
+import { OurServices } from "./OurServices";
 
 export const ElementHomePage = () => {
   return (
@@ -119,6 +120,12 @@ export const ElementHomePage = () => {
         </div>
         <div className="row"> <WhyChooseUs/></div>
         <div className="row"><ContactUs/></div>
+        <div className="row">
+            <div className="section-service">
+                <div className="text-wrapper-service">Our service</div>
+            </div>
+        </div>
+        <div className="row"><OurServices/></div>
         
      </div>
     </div>

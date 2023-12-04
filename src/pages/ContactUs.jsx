@@ -7,12 +7,13 @@ import "./ContactUs.css"
 export const ContactUs=()=>{
     return(
     <div className="contactUs-container">
-        <div className="div-title"></div>
+        
+        <div className="row">
         <div className="col-md-6">
         
             <div className="row">
                 <div className="top-block">
-                    <div className="text-wrapper-13">To Contact Us</div>
+                <div className="div-title" style={{ padding: '40px' }} ><div className="text-wrapper-13">To Contact Us</div></div>
                     <div className="form-box">
                         <p className="text-wrapper-20">We will call you back</p>
                         <div className="input-button row align-items-start">
@@ -86,14 +87,17 @@ export const ContactUs=()=>{
                 </div>
                     
             </div>
+            
 
             </div>
+            
         </div>
-        <div className="col-mod-6">
-            <div className="row">
-                <img className="shop" alt="shop" src="shop.svg"/>
-            </div>
+        <div className="col-md-6">
+            <img className="shop-image" alt="shop" src="shop.svg"/>
         </div>
+        </div>
+       
+        
     </div>
     
     )

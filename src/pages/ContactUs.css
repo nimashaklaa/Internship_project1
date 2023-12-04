@@ -1,13 +1,14 @@
 .ContactUs-container {
     display: flex;
     border: 1px solid black;
-    
+    padding-top: 0px;
 
   }
   
   .col-md-6 {
     width: 50%;
     padding: 20px;
+
     
   }
   
@@ -19,8 +20,7 @@
     position: relative;
   }
   .top-block{
-    
-    padding: 30px;
+    padding: 0px;
 
   }
   .row {
@@ -142,6 +142,11 @@
     padding: 20px;
     position: relative;
     width: 722px;
+  }
+  
+  
+  .shop-image {
+    width: 100%;
   }
   /* Additional styling can be added based on your design */
   
