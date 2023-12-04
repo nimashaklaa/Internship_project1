@@ -1,0 +1,32 @@
+
+.design-component-instance-node-2 {
+    margin-bottom: 0px; 
+    background-color: white;
+  }
+  
+  /* Style for the benefit block */
+  .benefit-block {
+    background-color: white; /* Adjust the background color as needed */
+    padding: 30px;
+    
+    
+  }
+  
+  /* Style for the label */
+  .label {
+    color: #111111;
+    font-family: "Gilroy-Semibold", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  /* Style for the description */
+  .description {
+    font-family: "Gilroy-Regular", Helvetica;
+    font-size: 16px; 
+    line-height: 1.6; 
+    text-align: justify;
+  }
+  

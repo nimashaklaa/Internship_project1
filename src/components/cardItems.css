@@ -1,18 +1,19 @@
-/* CardItem.css */
-
 .card-item {
+    top: 90px ;
+    left: 95px;
     border: 1px solid #ddd;
     border-color: black;
     overflow: hidden;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 360px;
+    height: 350px;
     width: 360px;
+    position: relative;
   }
   
   .card-image img {
     width: 360px;
-    height: 320px;
+    height: 350px;
   }
   
   .card-description {

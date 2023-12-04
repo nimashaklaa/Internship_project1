@@ -1,0 +1,55 @@
+/* practice.css */
+
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-md-6 {
+  flex: 0 0 50%; /* Adjust the width of columns as needed */
+  margin-bottom: 20px;
+  background-color: white;}
+
+.box {
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Additional styling for spacing between columns */
+.col-md-4:not(:last-child) {
+  margin-right: 20px;
+}
+.div-title {
+  align-items: flex-start;
+  border-color: var(--black);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  margin-left: -1px;
+  margin-top: -1px;
+  padding: 80px;
+  position: relative;
+  width: 722px;
+}
+.text-wrapper-5 {
+  color: #000; 
+  font-family:  "Gilroy-Semibold", Helvetica !important; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-weight: 700; 
+  letter-spacing: 1px; 
+  line-height: 1.5;
+  margin-right: -14px;
+  position: relative;
+  width: 576px;
+
+}
