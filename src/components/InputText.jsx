@@ -2,12 +2,20 @@
 
 import React from 'react';
 
-export const InputText = ({ className, placeholder, showHelperTxt, showLabel, size, state }) => {
+export const InputText = ({ className, placeholder,showLabel,  size, state ,padding  }) => {
   // Determine the input size based on the `size` prop
   const inputSizeClass = size === 'desktop' ? 'desktop-size' : 'default-size';
 
   // Determine the input state based on the `state` prop
   const inputStateClass = state === 'default' ? 'default-state' : 'other-state';
+
+  const inputStyles = {
+    padding: padding || '12px',  
+    textAlign: 'center',  
+  '::placeholder': {
+    textAlign: 'center',  
+  } 
+  };
 
   return (
     <div className={`input-text ${className} ${inputSizeClass} ${inputStateClass}`}>
@@ -15,8 +23,9 @@ export const InputText = ({ className, placeholder, showHelperTxt, showLabel, si
       <input
         type="text"
         placeholder={placeholder}
+        style={inputStyles}
       />
-      {showHelperTxt && <div className="helper-text">Helper Text</div>}
+      
     </div>
   );
 };

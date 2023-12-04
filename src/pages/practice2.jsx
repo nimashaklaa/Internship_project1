@@ -63,10 +63,10 @@ export const ElementHomePage = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-3">
                         <CardItem className="card-item-5" showDescription={false} imageUrl="./Picture5.png" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-3">
                         <CardCategory
                             label="Aroma Candels"
                             size="desktop"

@@ -12,7 +12,8 @@
 .col-md-6 {
   flex: 0 0 50%; /* Adjust the width of columns as needed */
   margin-bottom: 20px;
-  background-color: white;}
+  background-color: white;
+}
 
 .box {
   background-color: white;

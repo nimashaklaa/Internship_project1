@@ -1,15 +1,16 @@
 import React from "react";
 
-export const Button = ({ label, color, state, type }) => {
+export const Button = ({ label, BackgroundColor,color, state, type ,padding}) => {
   const buttonStyles = {
     // Add any styles you need for your button
     // Example: backgroundColor: "blue", color: "white", etc.
     cursor: "pointer",
-    padding: "24px",
+    padding: padding||"24px",
     marginTop: "40px",
-    color: "#111111",
+    color: color||"#111111",
     fontfamily: "Gilroy-Medium",
-    backgroundColor:color ||"white",
+    backgroundColor:BackgroundColor||"white",
+
 
   };
 

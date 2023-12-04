@@ -1,13 +1,91 @@
-.text-wrapper-13 {
-    color: #111111;
-    font-family: "Gilroy-Semibold", Helvetica;
-    font-size: 50px;
-    font-weight: 400;
-    height: 60px;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 60px;
-    position: fixed;
-    top: 0;
-    white-space: nowrap;
+.container {
+    display: flex;
+    border-color: 1px solid black;
+
+
   }
+  
+  .col-md-6 {
+    width: 50%;
+    padding: 20px;
+    
+  }
+  
+  .text-wrapper-13 {
+    font-family:"Gilroy-Semibold",Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .top-block{
+    
+    padding: 50px;
+
+  }
+  .row {
+    margin-bottom:0px;
+    
+  }
+  
+  .col-md-3 {
+    width: 25%;   
+  }
+  
+  .button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+    
+  }
+  .text-wrapper-20 {
+    color: #000;
+    font-family:"Gilroy-Semibold" , sans-serif; 
+    font-size: 20px; 
+    font-style: normal;  
+    letter-spacing: 0.5px; 
+    line-height: 1.5; 
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  .input-button.row  {
+    display: flex;
+    margin-top: 20px;
+    align-items: flex-start !important;
+  }
+  .input-text-2{
+    position: relative;
+  }
+
+  .button-2{
+    
+    position: relative;
+  }
+  .row > .row > .col-md-6 {
+    border: 1px solid black;
+  }
+  .row > .row > .col-md-6 >.text-wrapper-phone{
+    color: #111111;
+    font-family:"Gilroy-Medium" , Helvetica; 
+    font-size: 20px; 
+    font-style: normal;  
+    letter-spacing: 0.5px; 
+    line-height: 1.5; 
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+
+  }
+  
+  /* Additional styling can be added based on your design */
+  
