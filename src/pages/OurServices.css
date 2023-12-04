@@ -1,6 +1,6 @@
 .ourservice-container {
-    border-color: black;
-    justify-content: center;
+    
+    
   }
   
   .row {
@@ -8,23 +8,25 @@
   }
   
   .col-md-6 {
-    border: 1px solid black;
+    margin: 0;
+    /*border: 1px solid black;
     /* Add styles for columns with a width of 6 */
   }
   
   .service1 {
     height: 720px;
-    width: 720px;
+    width: 680px;
   }
-  .text-content{
-    padding: 80px;
+  .text-content1{
+    padding: 60px;
     justify-content: center;
   }
-  .service{
+  .Ourservice{
     justify-content: center;
-    font-size: 30px;
+    border-color:ipx solid peru !important;
+    font-size: 20px;
     padding: 40px;
-    padding-left: 220px;
+    padding-left: 200px;
     padding-top: 80px;
     padding-bottom: 0;
     font-weight: 700;
@@ -33,14 +35,25 @@
   .flower{
     justify-content: center;
     font-size: 40px;
-    padding: 40px;
-    padding-left: 40px;
+    padding-left: 60px;
+    padding-right: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-weight: 700;
     font-family:Helvetica;
   }
   .para-ser{
-    
+    text-align: center;
     font-size: 20px;
-    padding: 5px;
+    padding: 0px;
     font-family:Helvetica;
   }
+  .sub-button{
+    margin-top: -30px;
+    padding-left: 200px;
+    position:relative  
+  }
+  .service2{
+    width: 100%;
+  }
+

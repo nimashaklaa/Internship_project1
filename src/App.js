@@ -10,9 +10,9 @@ import { OurServices } from './pages/OurServices.jsx';
 
 function App() {
   return (
-  //<ElementHomePage/>
+  <ElementHomePage/>
   //<ContactUs/>
-  <OurServices/>
+  //<OurServices/>
   );
 }
 

@@ -1,6 +1,6 @@
 .left-colum {
     align-items: flex-start;
-    background-color: var(--white);
+   
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--black);
