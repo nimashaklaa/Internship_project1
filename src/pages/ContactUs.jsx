@@ -49,15 +49,23 @@ export const ContactUs=()=>{
                     <div className ="col-md-6"><div className="text-wrapper-Address">Address</div></div>
                 </div>
                 <div className="row">
-                    <div className ="col-mod-6">
-                        <img className="vector" alt="Vector" src="Vector.svg"/>
-                        <div className="text-wrapper-call1">+380980099777</div>
-                        
+                    <div className="row">
+                        <div className ="col-mod-6 ">
+                            <img className="vector" alt="Vector" src="Vector.svg"/>     
+                        </div>
+                        <div className ="col-mod-6">
+                            <div className="text-wrapper-call1">+380980099777</div> 
+                        </div>
                     </div>
-                    <div className ="col-mod-6">
-                        
+                    <div className="row">
+                        <div className ="col-mod-6 ">
+                            <img className="vector" alt="Vector" src="Vector.svg"/>     
+                        </div>
+                        <div className ="col-mod-6">
+                            <div className="text-wrapper-call1">+380980099777</div> 
+                        </div>
                     </div>
-
+                    
                 </div>
 
             </div>

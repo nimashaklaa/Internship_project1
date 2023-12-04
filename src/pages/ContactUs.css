@@ -1,7 +1,7 @@
 .container {
     display: flex;
     border-color: 1px solid black;
-
+    justify-content: space-between;
 
   }
   
@@ -73,10 +73,35 @@
   .row > .row > .col-md-6 {
     border: 1px solid black;
   }
-  .row > .row > .col-md-6 >.text-wrapper-phone{
+  
+  .text-wrapper-phone{
     color: #111111;
     font-family:"Gilroy-Medium" , Helvetica; 
     font-size: 20px; 
+    font-style: normal;  
+    letter-spacing: 0.5px; 
+    line-height: 1.5; 
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  .text-wrapper-Address{
+    color: #111111;
+    font-family:"Gilroy-Medium" , Helvetica; 
+    font-size: 20px; 
+    font-style: normal;  
+    letter-spacing: 0.5px; 
+    line-height: 1.5; 
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  .text-wrapper-call1{
+    color: #111111;
+    font-family:"Gilroy-Medium" , Helvetica; 
+    font-size: 16px; 
     font-style: normal;  
     letter-spacing: 0.5px; 
     line-height: 1.5; 
