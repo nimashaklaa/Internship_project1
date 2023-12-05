@@ -1,0 +1,147 @@
+.ourClient-content{
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    
+    padding: 80px;
+    position:relative;
+    width: 100%;
+  }
+  
+  .ourClient-content .text-content{
+    align-items:center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;  
+  }
+  .ourClient-content .overline-heading{
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+  }
+  .ourClient-content .google{
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+
+  }
+  .google-logo{
+    height: 28px;
+    position: relative;
+    width: 77px;
+  }
+  .reviews {
+    font-family:"Gilroy-Semibold",Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+  }
+  .ourclient{
+    color: #111111;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    height: 60px;
+    position: relative;
+  }
+  .slider{
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+    width: 1280px;
+  }
+  .mask{
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+    width: 100%;
+  }
+  .img{
+    height: 32px;
+    position: relative;
+    width: 32px;
+  }
+  .slide{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+  }
+  .ordered-flowers{
+    align-self: stretch;
+    color: #000;
+    font-family: "BIZ UDGothic-Regular",Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    position: relative;
+    text-align: center;
+
+  }
+  .span{
+    color: #111111;
+    font-family: "BIZ UDGothic-Regular",Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+  }
+  .text-wrapper-para{
+    font-family: "Gilroy-RegularItalic",Helvetica;
+    font-size: 28px;
+    font-style: italic;
+    line-height: 33.6px;
+  }
+  .text-wrapper-rona{
+    color: #111111;
+    font-family: "Gilroy-Medium",Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+
+  }
+  .slide-nav{
+    align-items: flex-start;
+    display: flex;
+    gap: 4px;
+    height: 4px;
+    position: relative;
+    width: 28px;
+  }
+  .ellipse{
+    background-color: gray;
+    border-radius: 2px;
+    height: 5px;
+    position: relative;
+    width: 5px;
+  }
+  .ellipse-2{
+    background-color: lightgray;
+    border-radius: 2px;
+    height: 5px;
+    position: relative;
+    width: 5px;
+
+  }
+  .button-instance{
+    display: inline-flex !important;
+    width: unset !important;
+  }

@@ -8,6 +8,7 @@ import { WhyChooseUs } from "./WhyChooseUs";
 import "./practice2.css";
 import { ContactUs } from "./ContactUs";
 import { OurServices } from "./OurServices";
+import { OurClientSay } from "./OurClientSay";
 
 export const ElementHomePage = () => {
   return (
@@ -126,6 +127,7 @@ export const ElementHomePage = () => {
             </div>
         </div>
         <div className="row"><OurServices/></div>
+        <div className="row"><OurClientSay/></div>
         
      </div>
     </div>

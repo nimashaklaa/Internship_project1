@@ -40,9 +40,7 @@ export const OurServices=()=>{
                 
             </div>
         </div>
-        <div className="row">
-            hello
-        </div>
+        
     </div>
     )
 }
