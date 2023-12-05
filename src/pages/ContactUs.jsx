@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "../components/button";
 import { InputText } from "../components/InputText";
-import { TextIconButton } from "../components/textIconButton";
 import "./ContactUs.css"
 
 export const ContactUs=()=>{

@@ -29,14 +29,15 @@ export const OurServices=()=>{
             <div className="service2 ">
                 <div className="text-content2">
                     <div className="Ourservice2">SERVICE</div>
-                        <div className="flower2">Flower Subscriptions</div>
+                        <div className="flower2">Wedding & Event Decor</div>
                         <p className="para-ser2">
-                        Experience the convenience and savings of regular flower deliveries with our flexible subscription service - up to 30% more profitable than one-time purchases.
+                        Let our team of expert florists and designers create stunning, on-trend floral décor for your special day. Trust us to bring your vision to life.
                         </p>
+                        <div className="sub-button2">
+                    <Button label="SUBSCRIBE NOW" padding={"20px 60px"}BackgroundColor="transparent" color="white" border="2px solid white"state="default" type="secondary" />
                 </div>
-                <div className="sub-button2">
-                    <Button label="SUBSCRIBE NOW" padding={"20px 60px"}BackgroundColor="transparent" color="white"state="default" type="secondary" />
                 </div>
+                
             </div>
         </div>
         <div className="row">

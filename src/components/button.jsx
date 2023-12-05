@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Button = ({ label, BackgroundColor,color, state, type ,padding}) => {
+export const Button = ({ label, BackgroundColor,color, state, border, type ,padding}) => {
   const buttonStyles = {
     // Add any styles you need for your button
     // Example: backgroundColor: "blue", color: "white", etc.
@@ -10,6 +10,7 @@ export const Button = ({ label, BackgroundColor,color, state, type ,padding}) =>
     color: color||"#111111",
     fontfamily: "Gilroy-Medium",
     backgroundColor:BackgroundColor||"white",
+    border :border ||" 2px solid black"
 
 
   };
