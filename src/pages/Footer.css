@@ -1,0 +1,153 @@
+.footer{
+   align-items: flex-start;
+   border: 1px solid;
+   border-color: black;
+   display: flex;
+   flex-wrap: wrap;
+   gap:0px 0px;
+   position: relative;
+   width: 1442px;
+
+  }
+  .wrap-footer {
+    align-items: flex-start;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+    max-height: 450px;
+    min-height: 429px;
+    min-width: 320px;
+    padding: 40px;
+    position: relative;
+  }
+  .div-para{
+    align-self: stretch;
+    color: #000;
+    position: relative;
+  }
+  .form-block{
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: -48px;
+    position: relative;
+  }
+  .input-text-instance{
+    flex: 0 0 auto !important;
+  }
+  .design-component-instance-node{
+    align-self: unset !important;
+    width:328px !important ;
+  }
+  .button-instance{
+    align-self: stretch !important;
+    width: 100% !important;
+  }
+  .wrap-footer-2{
+    align-items: flex-start;
+    background-color: white;
+    border:1px solid black;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+    max-height: 450px;
+    min-height: 429px;
+    min-width: 320px;
+    padding: 40px;
+    position: relative; 
+  }
+  .text-wrapper-2{
+    align-self: stretch;
+    color: gray;
+    margin-top: -1px;
+    position: relative;
+  }
+  .text-wrapper-3{
+    color: gray;
+    margin-top: -1px;
+    position: relative;
+    width: 280px;
+  }
+  .text-wrapper-4{
+    align-self: stretch;
+    color: black;
+    position: relative;
+  }
+  .wrap-links{
+     align-items: flex-start;
+     align-self: stretch;
+     display:flex ;
+     flex: 0 0 auto;
+     flex-direction: column;
+     gap: 8px;
+     position: relative;
+     width: 100%;
+  }
+  .wrap-links-2{
+    align-items: flex-start;
+    display:inline-flex ;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+ }
+ .text-wrapper-5{
+    color: black;
+    position: relative;
+    width: 280px;
+ }
+ .social-links{
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+ }
+ .text-wrapper-6{
+    color: gray;
+    margin-top: -1px;
+    position: relative;
+    width: 280px;
+ }
+ .social-m-link{
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 32px;
+    position: relative;
+ }
+ .wrap-footer-3{
+    align-items: flex-start;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+    min-width: 320px;
+    padding: 40px;
+    position: relative;
+ }
+ .text-wrapper-7{
+    color: black;
+    margin-top: -1px;
+    position: relative;
+    width: 280px;
+ }
+ .text-wrapper-8{
+    color: gray;
+    margin-top: -1px;
+    position: relative;
+    width: 280px;
+ }
+
+  
