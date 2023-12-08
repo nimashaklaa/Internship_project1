@@ -5,7 +5,7 @@ import './OurClientSay.css';
 export const OurClientSay=()=>{
     return(
         <div className="ourClient-content">
-            <div className="text-content">
+            <div className="text-content2">
                 <div className="overline-heading">
                     <div className="google">
                         <img className="google-logo" alt="google-logo" src="google-logo.svg"/>
@@ -35,7 +35,7 @@ export const OurClientSay=()=>{
                     </div>
 
                 </div>
-                <Button className="button-instance" label="READ REVIEWS" size="dekstop-tablet" state="pressed" type="secondary"/>
+                <Button className="button-instance" label="READ REVIEWS" size="dekstop-tablet" state="pressed" padding={"16px 24px"}type="secondary"/>
             </div>
             
 

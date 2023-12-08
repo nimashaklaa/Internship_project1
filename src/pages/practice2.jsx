@@ -115,7 +115,7 @@ export const ElementHomePage = () => {
                         online has never been easier.
                         </p>
                     </div>
-                    <Button label="LERN MORE" BackgroundColor="white" color="Black"state="default" type="secondary" /> 
+                    <Button label="LERN MORE" BackgroundColor="white" color="Black"state="default" padding={"16px 24px"}type="secondary" /> 
                 </div>
                  
             </div>
