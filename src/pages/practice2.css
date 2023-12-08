@@ -50,7 +50,14 @@
     width: 360px;
    
   }
-  
+  .gallery{
+    border: none;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
   .element-home-page .div-title {
     align-items: flex-start;
     border-color: var(--black);

@@ -22,22 +22,22 @@ export const ElementHomePage = () => {
             </div>
             <div className="col-md-6">
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="column" >
                         <CardCategory
                             label="Fresh Flowers"
                             size="desktop"
                             textIconButtonLabel="Shop now"
                             textIconButtonSizeDesktopStateClassName="card-category-instance"/>
                     </div>
-                    <div className="col-md-3">
+                    <div className="column">
                         <CardItem className="card-item-instance" showDescription={false} imageUrl="./Picture2.png" />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="column">
                         <CardItem className="card-item-3" showDescription={false} imageUrl="./Picture3.png" />
                     </div>
-                    <div className="col-md-3">
+                    <div className="column">
                         <CardCategory
                             label="Dried Flowers"
                             size="desktop"
@@ -54,7 +54,7 @@ export const ElementHomePage = () => {
             </div>
             <div className="col-md-6">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="column">
                         <CardCategory
                             label="Live Plants"
                             size="desktop"
@@ -62,15 +62,15 @@ export const ElementHomePage = () => {
                             textIconButtonSizeDesktopStateClassName="card-category-instance"
                         />
                     </div>
-                    <div className="col-md-6">
+                    <div className="column">
                         <CardItem className="card-item-4" showDescription={false} imageUrl="./Picture4.png" />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="column">
                         <CardItem className="card-item-5" showDescription={false} imageUrl="./Picture5.png" />
                     </div>
-                    <div className="col-md-3">
+                    <div className="column">
                         <CardCategory
                             label="Aroma Candels"
                             size="desktop"
@@ -80,7 +80,7 @@ export const ElementHomePage = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="column">
                         <CardCategory
                             label="Freshners"
                             size="desktop"
@@ -88,7 +88,7 @@ export const ElementHomePage = () => {
                             textIconButtonSizeDesktopStateClassName="card-category-instance"
                         />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="column">
                         <CardItem className="card-item-6" showDescription={false} imageUrl="./Picture6.png" />
                     </div>    
                 </div>
