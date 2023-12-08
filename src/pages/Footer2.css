@@ -1,29 +1,17 @@
 .footer{
-   align-items: flex-start;
-   border: 1px solid;
-   border-color: black;
-   display: flex;
-   flex-wrap: wrap;
-   gap:0px 0px;
-   position: relative;
-   width: 1442px;
-
-  }
-  .wrap-footer {
     align-items: flex-start;
-    background-color: white;
     display: flex;
-    flex: 1;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 24px;
-    max-height: 450px;
-    min-height: 429px;
-    min-width: 320px;
-    padding: 40px;
+    flex-wrap: wrap;
+    gap:0px 0px;
     position: relative;
-  }
-  .div-para{
+   
+   }
+   .col-md-3{
+    border:1px solid black;
+    padding:40px;
+
+   }
+   .div-para{
     align-self: stretch;
     color: #000;
     position: relative;
@@ -48,26 +36,12 @@
     align-self: stretch !important;
     width: 100% !important;
   }
-  .wrap-footer-2{
-    align-items: flex-start;
-    background-color: white;
-    border:1px solid black;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 24px;
-    max-height: 450px;
-    min-height: 429px;
-    min-width: 320px;
-    padding: 40px;
-    position: relative; 
-  }
   .text-wrapper-2{
     align-self: stretch;
     color: gray;
     margin-top: -1px;
     position: relative;
+    padding: 0px 0px 20px 0px;
   }
   .text-wrapper-3{
     color: gray;
@@ -116,25 +90,13 @@
     margin-top: -1px;
     position: relative;
     width: 280px;
+    padding: 20px 0 ;
  }
  .social-m-link{
     align-items: flex-start;
     display: inline-flex;
     flex: 0 0 auto;
     gap: 32px;
-    position: relative;
- }
- .wrap-footer-3{
-    align-items: flex-start;
-    background-color: white;
-    border: 1px solid black;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 24px;
-    min-width: 320px;
-    padding: 40px;
     position: relative;
  }
  .text-wrapper-7{
@@ -149,5 +111,6 @@
     position: relative;
     width: 280px;
  }
-
-  
+ .wrap-links-2{
+    padding-bottom: 20px;
+ }

@@ -9,6 +9,7 @@ import "./practice2.css";
 import { ContactUs } from "./ContactUs";
 import { OurServices } from "./OurServices";
 import { OurClientSay } from "./OurClientSay";
+import { Footer2 } from "./Footer2";
 
 export const ElementHomePage = () => {
   return (
@@ -128,7 +129,7 @@ export const ElementHomePage = () => {
         </div>
         <div className="row"><OurServices/></div>
         <div className="row"><OurClientSay/></div>
-        
+        <div className="row"><Footer2/></div>
      </div>
     </div>
 
